@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "DM Sans", sans-serif;
+  color: #1e293b;
+  background: #f8f8fc;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+button, input { font: inherit; }
+.font-display { font-family: "Manrope", sans-serif; }
+.brand-mark { background: linear-gradient(145deg, #a78bfa 0%, #7c3aed 52%, #5b21b6 100%); box-shadow: 0 7px 16px #8b5cf633; }
+.active-nav { color: #6d28d9; background: linear-gradient(90deg, #f2edff, #f8f5ff); box-shadow: inset 3px 0 #8b5cf6; }
+.nav-link svg { transition: transform .2s ease; }
+.nav-link:hover svg { transform: translateX(2px); }
+.help-card { background: linear-gradient(145deg, #a78bfa 0%, #7c3aed 55%, #6d28d9 100%); box-shadow: 0 10px 24px #7c3aed24; }
+.metric-card { transition: transform .2s ease, box-shadow .2s ease; }
+.metric-card:hover { transform: translateY(-3px); box-shadow: 0 12px 28px #312e8110; }
+.wave { display: inline-block; color: #f59e0b; font-size: 24px; transform: rotate(10deg); }
+@media (max-width: 1023px) { .sidebar { box-shadow: 15px 0 45px #1e1b4b12; } }
